@@ -1,0 +1,70 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels//FINALDRAFTNCLaborHistoryExhibit2019Page10",
+  "height": 28800,
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 450,
+      "width": 155
+    },
+    {
+      "height": 225,
+      "width": 77
+    },
+    {
+      "height": 113,
+      "width": 39
+    },
+    {
+      "height": 56,
+      "width": 19
+    },
+    {
+      "height": 28,
+      "width": 10
+    },
+    {
+      "height": 14,
+      "width": 5
+    },
+    {
+      "height": 7,
+      "width": 2
+    },
+    {
+      "height": 4,
+      "width": 1
+    },
+    {
+      "height": 2,
+      "width": 1
+    }
+  ],
+  "tiles": [
+    {
+      "height": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "width": 512
+    }
+  ],
+  "width": 9900
+}
