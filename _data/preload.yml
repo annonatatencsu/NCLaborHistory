@@ -1,7 +1,7 @@
 images:
 - ''
 manifests:
-- ''
+- https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/manifest.json
 settings:
   tempuser: enabled
   viewer: default
