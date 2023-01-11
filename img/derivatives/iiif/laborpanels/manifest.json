@@ -1,8 +1,9 @@
 ---
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/manifest.json",
+  "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -20,7 +21,7 @@
   "viewingDirection": "left-to-right",
   "items": [
     {
-      "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-1",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-1",
       "type": "Canvas",
       "label": {
         "en": [
@@ -29,7 +30,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page01/full/155,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page01/full/155,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -37,35 +38,42 @@
       "width": 9900,
       "items": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/page/p1/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/annotation/p0001-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/annotation/p0001-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page01/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page01/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 28800,
                 "width": 9900,
                 "service": [
                   {
-                    "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page01",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page01",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-1"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-1"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/laborpanels-1-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-1"
         }
       ]
     },
     {
-      "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-2",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-2",
       "type": "Canvas",
       "label": {
         "en": [
@@ -74,7 +82,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page02/full/155,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page02/full/155,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -82,35 +90,42 @@
       "width": 9900,
       "items": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/page/p2/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/page/p2/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/annotation/p0002-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/annotation/p0002-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page02/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page02/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 28800,
                 "width": 9900,
                 "service": [
                   {
-                    "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page02",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page02",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-2"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-2"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/laborpanels-2-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-2"
         }
       ]
     },
     {
-      "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-3",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-3",
       "type": "Canvas",
       "label": {
         "en": [
@@ -119,7 +134,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page03/full/155,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page03/full/155,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -127,35 +142,42 @@
       "width": 9900,
       "items": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/page/p3/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/page/p3/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/annotation/p0003-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/annotation/p0003-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page03/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page03/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 28800,
                 "width": 9900,
                 "service": [
                   {
-                    "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page03",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page03",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-3"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-3"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/laborpanels-3-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-3"
         }
       ]
     },
     {
-      "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-4",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-4",
       "type": "Canvas",
       "label": {
         "en": [
@@ -164,7 +186,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page04/full/155,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page04/full/155,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -172,35 +194,42 @@
       "width": 9900,
       "items": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/page/p4/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/page/p4/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/annotation/p0004-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/annotation/p0004-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page04/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page04/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 28800,
                 "width": 9900,
                 "service": [
                   {
-                    "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page04",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page04",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-4"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-4"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/laborpanels-4-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-4"
         }
       ]
     },
     {
-      "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-5",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-5",
       "type": "Canvas",
       "label": {
         "en": [
@@ -209,7 +238,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page05/full/155,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page05/full/155,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -217,35 +246,42 @@
       "width": 9900,
       "items": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/page/p5/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/page/p5/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/annotation/p0005-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/annotation/p0005-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page05/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page05/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 28800,
                 "width": 9900,
                 "service": [
                   {
-                    "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page05",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page05",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-5"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-5"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/laborpanels-5-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-5"
         }
       ]
     },
     {
-      "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-6",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-6",
       "type": "Canvas",
       "label": {
         "en": [
@@ -254,7 +290,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page06/full/155,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page06/full/155,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -262,35 +298,42 @@
       "width": 9900,
       "items": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/page/p6/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/page/p6/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/annotation/p0006-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/annotation/p0006-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page06/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page06/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 28800,
                 "width": 9900,
                 "service": [
                   {
-                    "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page06",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page06",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-6"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-6"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/laborpanels-6-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-6"
         }
       ]
     },
     {
-      "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-7",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-7",
       "type": "Canvas",
       "label": {
         "en": [
@@ -299,7 +342,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page07/full/155,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page07/full/155,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -307,35 +350,42 @@
       "width": 9900,
       "items": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/page/p7/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/page/p7/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/annotation/p0007-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/annotation/p0007-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page07/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page07/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 28800,
                 "width": 9900,
                 "service": [
                   {
-                    "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page07",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page07",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-7"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-7"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/laborpanels-7-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-7"
         }
       ]
     },
     {
-      "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-8",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-8",
       "type": "Canvas",
       "label": {
         "en": [
@@ -344,7 +394,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page08/full/155,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page08/full/155,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -352,35 +402,42 @@
       "width": 9900,
       "items": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/page/p8/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/page/p8/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/annotation/p0008-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/annotation/p0008-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page08/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page08/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 28800,
                 "width": 9900,
                 "service": [
                   {
-                    "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page08",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page08",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-8"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-8"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/laborpanels-8-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-8"
         }
       ]
     },
     {
-      "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-9",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-9",
       "type": "Canvas",
       "label": {
         "en": [
@@ -389,7 +446,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page09/full/155,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page09/full/155,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -397,35 +454,42 @@
       "width": 9900,
       "items": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/page/p9/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/page/p9/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/annotation/p0009-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/annotation/p0009-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page09/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page09/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 28800,
                 "width": 9900,
                 "service": [
                   {
-                    "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page09",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page09",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-9"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-9"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/laborpanels-9-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-9"
         }
       ]
     },
     {
-      "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-10",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-10",
       "type": "Canvas",
       "label": {
         "en": [
@@ -434,7 +498,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page10/full/155,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page10/full/155,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -442,35 +506,42 @@
       "width": 9900,
       "items": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/page/p10/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/page/p10/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/annotation/p0010-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/annotation/p0010-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page10/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page10/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 28800,
                 "width": 9900,
                 "service": [
                   {
-                    "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page10",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page10",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-10"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-10"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/laborpanels-10-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-10"
         }
       ]
     },
     {
-      "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-11",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-11",
       "type": "Canvas",
       "label": {
         "en": [
@@ -479,7 +550,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page11/full/155,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page11/full/155,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -487,35 +558,42 @@
       "width": 9900,
       "items": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/page/p11/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/page/p11/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/annotation/p0011-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/annotation/p0011-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page11/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page11/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 28800,
                 "width": 9900,
                 "service": [
                   {
-                    "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page11",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page11",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-11"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-11"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/laborpanels-11-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-11"
         }
       ]
     },
     {
-      "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-12",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-12",
       "type": "Canvas",
       "label": {
         "en": [
@@ -524,7 +602,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page12/full/155,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page12/full/155,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -532,35 +610,42 @@
       "width": 9900,
       "items": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/page/p12/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/page/p12/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/annotation/p0012-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/annotation/p0012-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page12/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page12/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 28800,
                 "width": 9900,
                 "service": [
                   {
-                    "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page12",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page12",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-12"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-12"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/laborpanels-12-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-12"
         }
       ]
     },
     {
-      "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-13",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-13",
       "type": "Canvas",
       "label": {
         "en": [
@@ -569,7 +654,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page13/full/155,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page13/full/155,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -577,30 +662,37 @@
       "width": 9900,
       "items": [
         {
-          "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/page/p13/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/page/p13/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/annotation/p0013-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/annotation/p0013-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page13/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page13/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 28800,
                 "width": 9900,
                 "service": [
                   {
-                    "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page13",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/FINALDRAFTNCLaborHistoryExhibit2019Page13",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-13"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-13"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/laborpanels-13-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/laborpanels/canvas/laborpanels-13"
         }
       ]
     }
