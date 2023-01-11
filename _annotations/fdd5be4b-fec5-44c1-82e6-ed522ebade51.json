@@ -1,0 +1,22 @@
+---
+canvas: "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-1"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [],
+    "target": {
+        "source": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/canvas/laborpanels-1",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"2470.6111755371094\" cy=\"4304.6298828125\" r=\"2379.2198387130466\"></circle></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://annonatatencsu.github.io/NCLaborHistory/img/derivatives/iiif/laborpanels/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "fdd5be4b-fec5-44c1-82e6-ed522ebade51.json",
+    "motivation": "commenting"
+}
